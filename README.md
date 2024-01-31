@@ -1,32 +1,55 @@
-# Turborepo react-native starter
+# Stonks Frontend Monorepo
 
-This is an official starter Turborepo.
+This codebase is a monorepo built using [TurboRepo](https://turbo.build/repo/docs) to manage Stonks frontend Web applications and libraries.
 
-## Using this example
+## Quickstart
 
-Run the following command:
+### Install
 
-```sh
-npx create-turbo@latest -e with-react-native-web
+To install all 3rd party packages as well as link all local apps, at root:
+
 ```
+pnpm install
+```
+
+### Build
+
+To build all apps and packages, at root:
+
+```
+pnpm run build
+```
+
+### Local Development
+
+To run apps in local dev mode, at root to for all apps in parallel, or at respective app directory for single app:
+
+```
+pnpm run dev
+```
+
+### Installing Packages
+
+See [installing packages via TurboRepo](https://turbo.build/repo/docs/handbook/package-installation#installing-packages)
 
 ## What's inside?
 
-This Turborepo includes the following packages/apps:
+This monorepo utilizes [pnpm](https://pnpm.io) as a package manager and includes the following apps/packages/tooling:
 
-### Apps and Packages
+### Apps
 
-- `native`: a [react-native](https://reactnative.dev/) app built with [expo](https://docs.expo.dev/)
-- `web`: a [Next.js](https://nextjs.org/) app built with [react-native-web](https://necolas.github.io/react-native-web/)
-- `@repo/ui`: a stub [react-native](https://reactnative.dev/) component library shared by both `web` and `native` applications
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+- `native`: the primary Stonks web application built using [Vite](https://vitejs.dev/)
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+### Packages
 
-### Utilities
+- `ui`: package of Stonks specific UI pattern components written on top of [Tailwind](https://tailwindcss.com/)
 
-This Turborepo has some additional tools already setup for you:
+### Tooling
 
-- [Expo](https://docs.expo.dev/) for native development
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [Prettier](https://prettier.io) for code formatting
+- `eslint-config-stonks`: centralized ESLint configuration settings
+- `tsconfig`: centralized Typescript configuration settings
+- `tailwind-config`: centralized Tailwind configuration settings
+- `typescript-config`: centralized Test configuration settings
+- `prettier-config`: centralized Prettier configuration settings
+
+All applications and libraries are 100% [TypeScript](https://www.typescriptlang.org/).
