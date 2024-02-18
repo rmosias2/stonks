@@ -38,7 +38,7 @@ This monorepo utilizes [pnpm](https://pnpm.io) as a package manager and includes
 
 ### Apps
 
-- `native`: the primary Stonks web application built using [Vite](https://vitejs.dev/)
+- `web`: the primary Stonks web application built using [Vite](https://vitejs.dev/)
 
 ### Packages
 
