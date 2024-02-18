@@ -21,11 +21,11 @@
         "jsx": "react-jsx"
     },
     "include": [
-        "../../apps/stonks-web/src"
+        "../../apps/web/src"
     ],
     "references": [
         {
-            "path": "../../apps/stonks-web/tsconfig.node.json"
+            "path": "../../apps/web/tsconfig.node.json"
         }
     ]
 }
