@@ -25,7 +25,6 @@ export const AdvisiorPage = () => {
       <header className='w-full p-5'>
         <Input placeholder='Search' trailingIcon={<SearchIcon />} />
       </header>
-      <section>aa</section>
       <NavigationBar menu={menu} />
     </div>
   );
