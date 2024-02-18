@@ -1,11 +1,14 @@
 import React from 'react';
-import { Button } from '@stonks/ui';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { AdvisiorPage } from './pages/advisior';
 
 function App() {
   return (
-    <div>
-      Stonks <Button />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<AdvisiorPage />} path='/advisiors' />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

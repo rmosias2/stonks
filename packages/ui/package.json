@@ -10,13 +10,15 @@
     "test:dev": "vitest run"
   },
   "devDependencies": {
-    "@types/react": "^18.2.46",
+    "@tooling/prettier-config": "workspace:*",
     "@tooling/typescript-config": "workspace:*",
+    "@types/react": "^18.2.46",
     "eslint-config-stonks": "workspace:*",
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "react-router-dom": "^6.22.1"
   },
   "prettier": "@tooling/prettier-config"
 }
