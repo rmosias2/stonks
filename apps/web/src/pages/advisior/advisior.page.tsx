@@ -22,7 +22,7 @@ export const AdvisiorPage = () => {
     },
   ];
   return (
-    <div className='h-screen w-screen overflow-hidden'>
+    <div className='w-screen overflow-hidden'>
       <header className='w-full p-5'>
         <Input placeholder='Search' trailingIcon={<SearchIcon />} />
       </header>
