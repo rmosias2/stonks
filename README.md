@@ -49,7 +49,6 @@ This monorepo utilizes [pnpm](https://pnpm.io) as a package manager and includes
 - `eslint-config-stonks`: centralized ESLint configuration settings
 - `tsconfig`: centralized Typescript configuration settings
 - `tailwind-config`: centralized Tailwind configuration settings
-- `typescript-config`: centralized Test configuration settings
 - `prettier-config`: centralized Prettier configuration settings
 
 All applications and libraries are 100% [TypeScript](https://www.typescriptlang.org/).

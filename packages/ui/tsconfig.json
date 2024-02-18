@@ -1,8 +1,5 @@
 {
-  "extends": "@tooling/typescript-config/react-native-library",
+  "extends": "@tooling/typescript-config/react-library.json",
   "include": ["."],
-  "exclude": ["dist", "build", "node_modules"],
-  "compilerOptions": {
-    "strict": true
-  }
+  "exclude": ["dist", "build", "node_modules"]
 }

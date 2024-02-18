@@ -9,7 +9,9 @@
   "devDependencies": {
     "prettier": "^3.1.1",
     "turbo": "latest",
-    "eslint-config-stonks": "workspace:*"
+    "eslint-config-stonks": "workspace:*",
+    "@tooling/tailwind-config": "workspace:*",
+    "@tooling/typescript-config": "workspace:*"
   },
   "prettier": "@tooling/prettier-config",
   "pnpm": {
