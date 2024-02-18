@@ -26,7 +26,7 @@ export const AdvisiorPage = () => {
       <header className='w-full p-5'>
         <Input placeholder='Search' trailingIcon={<SearchIcon />} />
       </header>
-      <section className='flex gap-2 items-start px-4'>
+      <section className='flex gap-2 items-start px-4 pb-20'>
         <ProfileCard
           description='Perfil Arrojado Gosta de Ações Nunca aposte contra os EUA'
           src={profileBg}
