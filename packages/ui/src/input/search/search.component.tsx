@@ -1,10 +1,10 @@
 import { InputHTMLAttributes, cloneElement, forwardRef } from 'react';
 
-export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
+export interface SearchInputProps extends InputHTMLAttributes<HTMLInputElement> {
   trailingIcon?: React.ReactElement;
 }
 
-const SearchInput = forwardRef<HTMLInputElement, InputProps>(({ className, trailingIcon, ...props }, ref) => {
+const SearchInput = forwardRef<HTMLInputElement, SearchInputProps>(({ className, trailingIcon, ...props }, ref) => {
   return (
     <div>
       <div className='relative w-full flex items-center gap-2'>
