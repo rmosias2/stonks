@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "jsx": "react"
+  },
+  "extends": "@tooling/typescript-config/node-library.json",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"]
+}

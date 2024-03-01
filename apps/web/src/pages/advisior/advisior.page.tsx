@@ -1,6 +1,6 @@
 import React from 'react';
 import profileBg from 'web/assets/profile.png';
-import { AvatarIcon, HomeIcon, Input, NavigationBar, ProfileCard, SearchIcon } from '@stonks/ui';
+import { AvatarIcon, HomeIcon, SearchInput, NavigationBar, ProfileCard, SearchIcon } from '@stonks/ui';
 
 export const AdvisiorPage = () => {
   const menu = [
@@ -24,7 +24,7 @@ export const AdvisiorPage = () => {
   return (
     <div className='w-screen overflow-hidden'>
       <header className='w-full p-5'>
-        <Input placeholder='Search' trailingIcon={<SearchIcon />} />
+        <SearchInput placeholder='Search' trailingIcon={<SearchIcon />} />
       </header>
       <section className='flex items-start px-4 pb-20 flex-wrap gap-2'>
         <div className='flex items-center gap-2'>
