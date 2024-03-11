@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { HomePage, OnboardingAdvisorPage, OnboardingPage, OnboardingWalletPage } from './pages';
+import { HomePage, OnboardingAdvisorPage, OnboardingPage, OnboardingWalletPage, ProfilePage } from './pages';
 import { AdvisiorPage } from './pages/advisior';
 import { LoginPage } from './pages/login';
 
@@ -16,6 +16,7 @@ function App() {
           <Route element={<OnboardingWalletPage />} path='wallet' />
         </Route>
         <Route element={<LoginPage />} path='/login' />
+        <Route element={<ProfilePage />} path='/profile' />
       </Routes>
     </BrowserRouter>
   );
